@@ -5,7 +5,7 @@ import { Genre } from '../models/genre.models';
 
 @Injectable({ providedIn: 'root' })
 export class GenreService {
-  private readonly apiUrl = 'http://localhost:8080/genres';
+  private readonly apiUrl = 'https://api-db.duckdns.org/genres';
 
   constructor(private http: HttpClient) {}
 
